@@ -1,2 +1,6 @@
-# PetesTireDb
-A database management system designed for Pete's Tire and Oil in Webster, MA.
+# Petes Tire Database Management System
+This database management program was designed as both a final project for CS-286: Database Management, and as a project for a family friend. The project utilizes Java code to interface with MySQL to execute a plethora of queries to manage and control the system. The program is a response to hand-written tire inventory that was time consuming and expensive, with the hope to streamline the process and make the inventory's management less tiresome.
+
+The initial data was gathered from the last hand-written inventory I received, and it was placed into an excel sheet to be loaded and manipulated. The excel sheets are loaded into MySQL to initialize the Db with the load feature (and the Db can be written to excel with the save feature). First, the user must login with an existing user. To do so they are given a temp user with no permissions. After logging in the user will then be prompted to enter their desired function from a list of functions, and subsequently they will be prompted to fill out the input for the respective function (query). The query is then executed and the user may run the program again.
+
+Future work will be primarily focused on a GUI, as well as streamlining/improving login and user management features as well as adding more queries.
