@@ -1,6 +1,6 @@
 # PetesTireDb
 
-A command-line database management system built for Pete's Tire and Oil in Webster, MA. The system was designed to replace a hand-written inventory process — reducing the time and cost associated with manually tracking tire stock — with a Java-backed MySQL solution that supports role-based access control, Excel import/export, and structured CRUD operations for both new and used tire inventory.
+A command-line database management system built for Pete's Tire and Oil in Webster, MA. The system was designed to replace a hand-written inventory process — reducing the time and cost associated with manually tracking tire stock. The system was designed in my sophomore year at WSU and is due for sweeping changes when current high-priority projects are stable.
 
 ---
 
