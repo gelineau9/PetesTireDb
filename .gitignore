@@ -1,0 +1,42 @@
+# Compiled Java class files
+*.class
+
+# JAR files (add dependencies manually or via build tool; do not commit JARs)
+*.jar
+*.war
+*.ear
+
+# Build output directories
+bin/
+out/
+build/
+target/
+
+# IDE — IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE — Eclipse
+.project
+.classpath
+.settings/
+
+# IDE — VS Code
+.vscode/
+
+# IDE — NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local config (if config.properties is added in a future iteration)
+config.properties
+*.env
